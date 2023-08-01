@@ -1,10 +1,8 @@
-import "./Header.scss";
-export const Header = (): JSX.Element => {
-  //TODO: Hyzu lam Header
+import "./Footer.scss";
+export const Footer = (): JSX.Element => {
   return (
     <div>
-      <div className="header-container">
-        {" "}
+      <div className="footer-container">
         <nav>
           <a href="#">Home</a>
           <a href="#">Blog</a>

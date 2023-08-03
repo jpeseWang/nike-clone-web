@@ -20,7 +20,7 @@ a {
 }
 
 .header-navbar-img {
-  padding: 5px 30px;
+  padding: 5px 50px;
 }
 
 .header-navbar__dunking {
@@ -67,7 +67,8 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 40px 10px 30px;
+  padding: 10px 40px 10px 50px;
+  position: relative;
 }
 
 .header-navbar__list-2__logo {
@@ -75,17 +76,45 @@ a {
 }
 
 .header-navbar__list-2__info {
-  transform: translateX(35%);
+  transform: translateX(25%);
 }
 
+.featured__modal {
+  position: absolute;
+  top: 63px;
+  left: 0;
+  right: 0;
+  display: none;
+}
 
-.list-2__info-detail {
-  padding: 0 10px;
-  font-weight: 700;
+.featured__modal--overlay {
+}
+
+.featured__modal-list--all {
+  padding: 0 150px;
+  display: flex;
+  background-color: #ccc;
+  justify-content: space-around;
+}
+
+.featured__modal-list__item {
+  text-align: left;
   font-size: 15px;
 }
 
+.featured__modal-list__item--title {
+  font-weight: 600;
+  padding: 20px 0;
+}
 
+.list-2__info-detail {
+  display: inline-block;
+  position: relative;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+}
 
 .header-navbar__list-2__icon {
   display: flex;

@@ -1,0 +1,24 @@
+@media (max-width: 1090px) {
+    .list-2__info-detail:last-child {
+        display: none; 
+    }
+}
+
+//tablet and moble
+
+@media (max-width: 1023px) {
+    .header-navbar__list-2__info {
+        display: none;
+    }
+    .header-navbar__first-layer {
+        display: none;
+    }
+}
+
+//phone
+
+@media (max-width: 739px){
+    .list-2__search-bar {
+        display: none;
+    }
+}

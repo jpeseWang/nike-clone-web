@@ -1,4 +1,5 @@
 import "./Header.scss";
+import "./Resonsive.scss"
 import nike__logo from "./img/Logo_NIKE.svg.png";
 import dunking from "./img/Jumpman_logo.svg.png";
 export const Header = (): JSX.Element => {
@@ -9,7 +10,7 @@ export const Header = (): JSX.Element => {
         {" "}
         <nav className="header-navbar">
             <div className="header-navbar__first-layer">
-              
+
               <div className="header-navbar-img">
                  <img src={dunking} alt="" className="header-navbar__dunking"/>  
               </div>
@@ -38,8 +39,8 @@ export const Header = (): JSX.Element => {
                     <span className="list-2__info-detail">Women</span>
                     <span className="list-2__info-detail">Kids</span>
                     <span className="list-2__info-detail">Sale</span>
+                    <span className="list-2__info-detail">SNSR</span>
                 </li>
-
                 <li className="header-navbar__list-2__icon">
                   <input type="text" className="list-2__search-bar" placeholder="Search"/>
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="list-2__icon list-2__icon__heart">
@@ -48,8 +49,62 @@ export const Header = (): JSX.Element => {
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="list-2__icon list-2__icon__shopping-bag">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
                   </svg>  
-
                 </li>
+                <div className="featured__modal">
+                  <div className="featured__modal--overlay"></div>
+
+                  <div className="featured__modal-list--all">
+                    <ul className="featured__modal-list">
+                      <p className="featured__modal-list__item featured__modal-list__item--title">New & Featured</p>
+                      <p className="featured__modal-list__item">New Arrivals</p>
+                      <p className="featured__modal-list__item">Latest Shoes</p>
+                      <p className="featured__modal-list__item">Latest Clothing</p>
+                      <p className="featured__modal-list__item">Customize with Nike By You</p>
+                      <p className="featured__modal-list__item">Bestsellers</p>
+                      <p className="featured__modal-list__item">Member Eclusive</p>
+                      <p className="featured__modal-list__item">National Team Kits</p>
+                      <p className="featured__modal-list__item">Top Kicks Under 3,000,000 <span className="featured__modal-list__item--underscored">đ</span></p>
+                    </ul>
+                    
+                    <ul className="featured__modal-list">
+                      <p className="featured__modal-list__item featured__modal-list__item--title">Shop Icons</p>
+                      <p className="featured__modal-list__item">Air Force 1</p>
+                      <p className="featured__modal-list__item">Air Jordan 1</p>
+                      <p className="featured__modal-list__item">Air Max</p>
+                      <p className="featured__modal-list__item">Dunk</p>
+                      <p className="featured__modal-list__item">Blazer</p>
+                      <p className="featured__modal-list__item">Pegasus</p>
+                    </ul>
+
+                    <ul className="featured__modal-list">
+                      <p className="featured__modal-list__item featured__modal-list__item--title">New For Men</p>
+                      <p className="featured__modal-list__item">Shoes</p>
+                      <p className="featured__modal-list__item">Clothing</p>
+                      <p className="featured__modal-list__item">Clothing</p>
+                      <p className="featured__modal-list__item">Accessories</p>
+                      <p className="featured__modal-list__item">Shop All New</p>
+                    </ul>
+
+                    <ul className="featured__modal-list">
+                      <p className="featured__modal-list__item featured__modal-list__item--title">New For Women</p>
+                      <p className="featured__modal-list__item">Shoes</p>
+                      <p className="featured__modal-list__item">Clothing</p>
+                      <p className="featured__modal-list__item">Clothing</p>
+                      <p className="featured__modal-list__item">Accessories</p>
+                      <p className="featured__modal-list__item">Shop All New</p>
+                    </ul>
+
+                    <ul className="featured__modal-list">
+                      <p className="featured__modal-list__item featured__modal-list__item--title">New For Kids</p>
+                      <p className="featured__modal-list__item">Shoes</p>
+                      <p className="featured__modal-list__item">Clothing</p>
+                      <p className="featured__modal-list__item">Clothing</p>
+                      <p className="featured__modal-list__item">Accessories</p>
+                      <p className="featured__modal-list__item">Shop All New</p>
+                    </ul>
+                  </div>
+                
+              </div>
             </ul>
             <div className="header-navbar__list-3">
               <p className="header-navbar__list-3__style">New Styles on Sale:</p>

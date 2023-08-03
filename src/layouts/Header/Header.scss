@@ -1,11 +1,12 @@
+.grid {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
 .header-container {
 }
 a {
   padding: 5% 20px;
-}
-
-.header-container {
-
 }
 
 .header-navbar {
@@ -18,11 +19,19 @@ a {
   position: relative;
 }
 
+.header-navbar-img {
+  padding: 5px 30px;
+}
+
+.header-navbar__dunking {
+  width: 25px;
+}
+
 .header-navbar__list {
   position: absolute;
   display: block;
   top: 0;
-  right: 0;
+  right: 16px;
   font-size: 13px;
   font-weight: 500;
 }
@@ -58,12 +67,11 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0;
+  padding: 10px 40px 10px 30px;
 }
 
 .header-navbar__list-2__logo {
-  width: 35px;
-  height: 35px;
+  width: 70px;
 }
 
 .header-navbar__list-2__info {
@@ -96,6 +104,7 @@ a {
   background-color: rgba(217, 215, 215, 0.4);
   border-radius: 20px;
   padding: 8px 0 8px 16px;
+  width: 180px;
 }
 
 .list-2__search-bar:focus {
@@ -123,5 +132,7 @@ a {
 .header-navbar__list-3__link {
   padding: 0;
   text-decoration: underline;
+  font-size: 13px;
+  font-weight: 500;
 }
 

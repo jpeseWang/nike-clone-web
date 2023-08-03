@@ -1,4 +1,6 @@
 import "./Header.scss";
+import nike__logo from "./img/Logo_NIKE.svg.png";
+import dunking from "./img/Jumpman_logo.svg.png";
 export const Header = (): JSX.Element => {
   //TODO: Hyzu lam Header
   return (
@@ -7,6 +9,10 @@ export const Header = (): JSX.Element => {
         {" "}
         <nav className="header-navbar">
             <div className="header-navbar__first-layer">
+              
+              <div className="header-navbar-img">
+                 <img src={dunking} alt="" className="header-navbar__dunking"/>  
+              </div>
                 <ul className="header-navbar__list">
                   <li className="header-navbar__list-item">Find a store</li>
                   <li className="header-navbar__list-item">Help</li>
@@ -23,7 +29,7 @@ export const Header = (): JSX.Element => {
 
             <ul className="header-navbar__list-2">
                 <li className="header-navbar__list-2__logo">
-                    <img src="./nike_logo.jpeg" alt="" />
+                    <img src={nike__logo} alt="" />
                 </li>
 
                 <li className="header-navbar__list-2__info">

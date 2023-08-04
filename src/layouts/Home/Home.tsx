@@ -1,7 +1,7 @@
-import background from "./img/basketball-match.webp"
-import jordan__mid from "./img/Air-jodan-1mid-SE.webp"
-import model from "./img/model.jpeg"
-import model_woman from"./img/modal-woman.webp"
+import background from "../Assets/img/basketball-match.webp"
+import jordan__mid from "../Assets/img/Air-jodan-1mid-SE.webp"
+import model from "../Assets/img/model.jpeg"
+import model_woman from"../Assets/img/modal-woman.webp"
 import "./Home.scss"
 export const Home = (): JSX.Element => {
   return (
@@ -118,6 +118,7 @@ export const Home = (): JSX.Element => {
             </div>
 
           </div>
+          .
       </div>
 
     </div>

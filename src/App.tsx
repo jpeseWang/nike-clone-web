@@ -3,12 +3,14 @@ import "./App.css";
 import { Header } from "./layouts/Header/Header";
 import { Home } from "./layouts/Home/Home";
 import { Footer } from "./layouts/Footer/Footer";
-
+import { AppRoutes } from "./routes/AppRoutes";
 function App() {
   return (
     <div className="App">
       <Header />
-      <Home />
+      {/* Routing */}
+      <AppRoutes />
+      {/* Routing */}
       <Footer />
     </div>
   );

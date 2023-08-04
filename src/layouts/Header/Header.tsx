@@ -1,7 +1,7 @@
 import "./Header.scss";
 import "./Resonsive.scss"
-import nike__logo from "./img/Logo_NIKE.svg.png";
-import dunking from "./img/Jumpman_logo.svg.png";
+import nike__logo from "../Assets/img/Logo_NIKE.svg.png";
+import dunking from "../Assets/img/Jumpman_logo.svg.png";
 export const Header = (): JSX.Element => {
   //TODO: Hyzu lam Header
   const modal1 = document.querySelector('.featured__modal-list__item--title');

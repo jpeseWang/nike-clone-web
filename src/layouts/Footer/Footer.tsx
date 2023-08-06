@@ -6,7 +6,7 @@ export const Footer = (): JSX.Element => {
     {
       <footer className="bg-[#111]">
           <div className="gridd wide text-white">
-              <div className="info-1 flex py-10">
+              <div className="info-1 flex py-10 ">
                   <div className="pr-36">
 
                       <p className="pb-3">Find A Store</p>

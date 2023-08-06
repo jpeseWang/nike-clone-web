@@ -4,7 +4,6 @@ import nike__logo from "../Assets/img/Logo_NIKE.svg.png";
 import dunking from "../Assets/img/Jumpman_logo.svg.png";
 export const Header = (): JSX.Element => {
   //TODO: Hyzu lam Header
-  const modal1 = document.querySelector('.featured__modal-list__item--title');
   return (
     <div>
       <div className="header-container">
@@ -26,7 +25,7 @@ export const Header = (): JSX.Element => {
                     <a href="" className="header-navbar__list-item__link">Join us</a>
                   </li>
                   <li className="header-navbar__list-item">
-                    <a href="" className="header-navbar__list-item__link">Sign in</a>
+                    <a href="./login" className="header-navbar__list-item__link">Sign in</a>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="header-navbar__list-item__arrow-right">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
                     </svg>

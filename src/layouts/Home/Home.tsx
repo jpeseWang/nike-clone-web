@@ -166,7 +166,7 @@ export const Home = (): JSX.Element => {
             <p className="slider__trending">TRENDING</p>
             <img src={model} alt="" />
           </div>
-          <div className="slider__info">
+          <div className="slider__info max-w-[50%]">
             <p className="slider__jordan">Jordan Men</p>
             <h1 className="slider__mvp">MVP COLLECTION</h1>
             <p className="slider__details">
@@ -224,8 +224,8 @@ export const Home = (): JSX.Element => {
           </div>
         </div>
 
-        <div className="flex justify-center pt-20 pb-12">
-            <div>
+        <div className="pt-20 pb-12 lg:flex lg:justify-center sm:grid sm:grid-cols-2">
+            <div className="sm:mx-auto">
                 <p className="px-8 font-semibold pb-4">Jordan Shoes</p>
                 <p className="px-8">All Jordan Shoes</p>
                 <p className="px-8">New Jordan Shoes</p>
@@ -235,7 +235,7 @@ export const Home = (): JSX.Element => {
                 <p className="px-8">Women's Jordan Shoes</p>
                 <p className="px-8">Kid's Jordan Shoes</p>
             </div>
-            <div>
+            <div className="sm:mx-auto">
                 <p className="px-8 font-semibold pb-4">Jordan Clothing</p>
                 <p className="px-8">All Jordan Clothing</p>
                 <p className="px-8">Top & T-shirts</p>
@@ -243,14 +243,14 @@ export const Home = (): JSX.Element => {
                 <p className="px-8">Trousers</p>
                 <p className="px-8">Shorts</p>
             </div>
-            <div>
+            <div className="sm:mx-auto sm:mt-10 lg:mx-0 lg:mt-0">
                 <p className="px-8 font-semibold pb-4">Jordan gear</p>
                 <p className="px-8">All Jordan Accessories</p>
                 <p className="px-8">Backs & Backpacks</p>
                 <p className="px-8">Hats</p>
                 <p className="px-8">Socks</p>
             </div>
-            <div>
+            <div className="sm:mx-auto sm:mt-10 lg:mx-0 lg:mt-0">
                 <p className="px-8 font-semibold pb-4">Featured</p>
                 <p className="px-8">All Jordan Products</p>
                 <p className="px-8">New Releases</p>

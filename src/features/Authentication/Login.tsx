@@ -13,11 +13,11 @@ export const Login = (): JSX.Element => {
                   <input type="checkbox" name="" id="" className="justify-start"/>
                   <p className="justify-start text-xs pl-2">Keep me signed in</p>
               </div>
-              <a href="" className="text-xs justify-end !decoration-solid">Forgotten your password ?</a>
+              <a href="" className="text-xs justify-end !decoration-solid underline">Forgotten your password ?</a>
            </div>
-           <p className="text-xs font-light py-6">By logging in, you agree to Nike's <a href="" className="decoration-solid">Privacy Policy and <br /> Terms of Use.</a></p>
+           <p className="text-xs font-light py-6">By logging in, you agree to Nike's <a href="" className="decoration-solid underline">Privacy Policy and <br /> Terms of Use.</a></p>
            <button className="bg-[#111] w-[100%] text-white p-2 hover:opacity-80">Sign in</button>
-           <p className="pt-5 text-xs font-light">Not a member ? <a href="" className="">Join us</a></p>
+           <p className="pt-5 text-xs font-light">Not a member ? <a href="/signup" className="underline font-normal">Join us</a></p>
         </div>
     </div>
   )

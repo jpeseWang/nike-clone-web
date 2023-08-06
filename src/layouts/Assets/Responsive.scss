@@ -1,8 +1,14 @@
-@media (max-width: 1090px) {
-    .list-2__info-detail:last-child {
-        display: none; 
-    }
+.gridd {
+    width: 100%;
+    display: block;
+    padding: 0;
 }
+
+.gridd.wide {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
 
 //tablet and moble
 
@@ -20,5 +26,11 @@
 @media (max-width: 739px){
     .list-2__search-bar {
         display: none;
+    }
+}
+
+@media (max-width: 1090px) {
+    .list-2__info-detail:last-child {
+        display: none; 
     }
 }

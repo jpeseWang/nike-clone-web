@@ -1,22 +1,35 @@
-<<<<<<< HEAD
 import background from "../Assets/img/basketball-match.webp"
 import jordan__mid from "../Assets/img/Air-jodan-1mid-SE.webp"
 import model from "../Assets/img/model.jpeg"
 import model_woman from"../Assets/img/modal-woman.webp"
+import two_woman from "../Assets/img/Two-girl.webp"
+import shoes from "../Assets/img/shoess.webp"
+import nigga from "../Assets/img/nigga.webp"
+import group from "../Assets/img/group.webp"
+import pair_shoes from "../Assets/img/pair_shoes.webp"
+import dunking from "../Assets/img/Jumpman_logo.svg.png";
 import "./Home.scss"
-=======
-import background from "./img/basketball-match.webp";
-import jordan__mid from "./img/Air-jodan-1mid-SE.webp";
-import model from "./img/model.jpeg";
-import model_woman from "./img/modal-woman.webp";
-import "./Home.scss";
->>>>>>> 0706c8d32562a4db931b7ac022dedec3499e6585
+import "../Assets/Responsive.scss"
+
+
 export const Home = (): JSX.Element => {
   return (
-    <div className="grid home">
+    <div className="gridd wide home">
       {/* Tailwind CSS practice */}
 
       <div className="home__background">
+        <div className="pt-16 pb-6">
+            <div className="flex justify-center">
+              <img src={dunking} alt="" className="w-24 flex justify-center"/>
+            </div>
+            <div className="flex justify-center">
+                <p className="pr-7 pt-10 font-medium">New Releases</p>
+                <p className="pr-7 pt-10 font-medium">Jordan Sport</p>
+                <p className="pr-7 pt-10 font-medium">Men</p>
+                <p className="pr-7 pt-10 font-medium">Women</p>
+                <p className="pr-7 pt-10 font-medium">Kids</p>
+            </div>
+        </div>
         <img src={background} alt="" className="home__background-img" />
       </div>
       <div className="home__luk-al">
@@ -36,7 +49,7 @@ export const Home = (): JSX.Element => {
         <p className="home__luk-al-text">
           keep the look sleek no matter what realm you’re stepping out in.
         </p>
-        <a href="" className="home__luk-al__arround bordered__shop">
+        <a href="#" className="home__luk-al__arround bordered__shop">
           Shop
         </a>
       </div>
@@ -119,9 +132,6 @@ export const Home = (): JSX.Element => {
               <p className="shoes__info-details__sex">Women's shoes</p>
             </div>
           </div>
-<<<<<<< HEAD
-          .
-=======
           <div className="product__shoes-each">
             <img
               src={jordan__mid}
@@ -186,7 +196,69 @@ export const Home = (): JSX.Element => {
             </a>
           </div>
         </div>
->>>>>>> 0706c8d32562a4db931b7ac022dedec3499e6585
+
+        <div className="pt-10">
+          <p className="text-xl text-black font-extrabold py-10">DISCOVER JORDAN ESSENTIALS</p>
+          <div className="grid grid-cols-3 gap-4">
+            <div>
+              <img src={two_woman} alt="" className="" />
+              <p className="text-center pt-5">Clothing</p>
+            </div>
+
+            <div>
+              <img src={shoes} alt="" className="" />
+              <p className="text-center pt-5">Shoes</p>
+            </div>
+
+            <div>
+              <img src={nigga} alt="" className="" />
+              <p className="text-center pt-5">Gear</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p className="text-xl text-black font-extrabold py-10 mt-20">DISCOVER JORDAN ESSENTIALS</p>
+          <div className="grid grid-cols-2 gap-4">
+              <img src={group} alt="" className="" />
+              <img src={pair_shoes} alt="" className="" />
+          </div>
+        </div>
+
+        <div className="flex justify-center pt-20 pb-12">
+            <div>
+                <p className="px-8 font-semibold pb-4">Jordan Shoes</p>
+                <p className="px-8">All Jordan Shoes</p>
+                <p className="px-8">New Jordan Shoes</p>
+                <p className="px-8">Jordan Lifestyle</p>
+                <p className="px-8">Jordan Basketball</p>
+                <p className="px-8">Men's Jordan Shoes</p>
+                <p className="px-8">Women's Jordan Shoes</p>
+                <p className="px-8">Kid's Jordan Shoes</p>
+            </div>
+            <div>
+                <p className="px-8 font-semibold pb-4">Jordan Clothing</p>
+                <p className="px-8">All Jordan Clothing</p>
+                <p className="px-8">Top & T-shirts</p>
+                <p className="px-8">Jackets</p>
+                <p className="px-8">Trousers</p>
+                <p className="px-8">Shorts</p>
+            </div>
+            <div>
+                <p className="px-8 font-semibold pb-4">Jordan gear</p>
+                <p className="px-8">All Jordan Accessories</p>
+                <p className="px-8">Backs & Backpacks</p>
+                <p className="px-8">Hats</p>
+                <p className="px-8">Socks</p>
+            </div>
+            <div>
+                <p className="px-8 font-semibold pb-4">Featured</p>
+                <p className="px-8">All Jordan Products</p>
+                <p className="px-8">New Releases</p>
+                <p className="px-8">Women's Jordan</p>
+                <p className="px-8">Kids' Jordan</p>
+            </div>
+        </div>
+
       </div>
     </div>
   );

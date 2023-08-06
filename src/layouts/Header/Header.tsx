@@ -1,5 +1,5 @@
 import "./Header.scss";
-import "./Resonsive.scss"
+import "../Assets/Responsive.scss"
 import nike__logo from "../Assets/img/Logo_NIKE.svg.png";
 import dunking from "../Assets/img/Jumpman_logo.svg.png";
 export const Header = (): JSX.Element => {

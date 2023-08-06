@@ -32,7 +32,7 @@ export const Home = (): JSX.Element => {
         </div>
         <img src={background} alt="" className="home__background-img" />
       </div>
-      <div className="home__luk-al">
+      <div className="home__luk-al lg:max-w-[100%] lg:mx-0 md:max-w-[75%] md:mx-auto">
         <p className="home__luk-al-text home__luk-al-text--strong home__luk-al-text--small">
           Luka 2
         </p>
@@ -225,7 +225,7 @@ export const Home = (): JSX.Element => {
         </div>
 
         <div className="pt-20 pb-12 lg:flex lg:justify-center sm:grid sm:grid-cols-2">
-            <div className="sm:mx-auto">
+            <div className="sm:mx-auto lg:mx-0">
                 <p className="px-8 font-semibold pb-4">Jordan Shoes</p>
                 <p className="px-8">All Jordan Shoes</p>
                 <p className="px-8">New Jordan Shoes</p>
@@ -235,7 +235,7 @@ export const Home = (): JSX.Element => {
                 <p className="px-8">Women's Jordan Shoes</p>
                 <p className="px-8">Kid's Jordan Shoes</p>
             </div>
-            <div className="sm:mx-auto">
+            <div className="sm:mx-auto lg:mx-0">
                 <p className="px-8 font-semibold pb-4">Jordan Clothing</p>
                 <p className="px-8">All Jordan Clothing</p>
                 <p className="px-8">Top & T-shirts</p>
@@ -243,14 +243,14 @@ export const Home = (): JSX.Element => {
                 <p className="px-8">Trousers</p>
                 <p className="px-8">Shorts</p>
             </div>
-            <div className="sm:mx-auto sm:mt-10 lg:mx-0 lg:mt-0">
+            <div className="sm:mx-auto lg:mx-0 sm:mt-10 lg:mx-0 lg:mt-0">
                 <p className="px-8 font-semibold pb-4">Jordan gear</p>
                 <p className="px-8">All Jordan Accessories</p>
                 <p className="px-8">Backs & Backpacks</p>
                 <p className="px-8">Hats</p>
                 <p className="px-8">Socks</p>
             </div>
-            <div className="sm:mx-auto sm:mt-10 lg:mx-0 lg:mt-0">
+            <div className="sm:mx-auto lg:mx-0 sm:mt-10 lg:mx-0 lg:mt-0">
                 <p className="px-8 font-semibold pb-4">Featured</p>
                 <p className="px-8">All Jordan Products</p>
                 <p className="px-8">New Releases</p>

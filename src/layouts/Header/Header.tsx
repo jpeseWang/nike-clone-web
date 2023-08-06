@@ -12,7 +12,9 @@ export const Header = (): JSX.Element => {
             <div className="header-navbar__first-layer">
 
               <div className="header-navbar-img">
-                 <img src={dunking} alt="" className="header-navbar__dunking"/>  
+                <a href="./" className="">
+                  <img src={dunking} alt="" className="header-navbar__dunking hover:opacity-50"/>  
+                </a>
               </div>
                 <ul className="header-navbar__list">
                   <li className="header-navbar__list-item">
@@ -36,7 +38,9 @@ export const Header = (): JSX.Element => {
 
             <ul className="header-navbar__list-2">
                 <li className="header-navbar__list-2__logo">
-                    <img src={nike__logo} alt="" />
+                  <a href="/marketplace" className="hover:opacity-50">
+                      <img src={nike__logo} alt="" />
+                  </a>
                 </li>
 
                 <li className="header-navbar__list-2__info">

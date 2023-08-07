@@ -4,6 +4,7 @@ import { Signup } from "../features/Authentication/Signup";
 import { Marketplace } from "../pages/marketplace/Marketplace";
 import { Home } from "../layouts/Home/Home";
 import { FC } from "react";
+import { Joinus } from "../features/Authentication/Joinus";
 export const AppRoutes = (): JSX.Element => {
   return (
     <>
@@ -12,6 +13,7 @@ export const AppRoutes = (): JSX.Element => {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/marketplace" element={<Marketplace />} />
+        <Route path="joinus" element={<Joinus />} />
       </Routes>
     </>
   );

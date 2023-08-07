@@ -24,7 +24,7 @@ export const Header = (): JSX.Element => {
                     <a href="" className="header-navbar__list-item__link">Help</a>
                   </li>
                   <li className="header-navbar__list-item">
-                    <a href="./signup" className="header-navbar__list-item__link">Join us</a>
+                    <a href="./joinus" className="header-navbar__list-item__link">Join us</a>
                   </li>
                   <li className="header-navbar__list-item">
                     <a href="./login" className="header-navbar__list-item__link">Sign in</a>
@@ -121,10 +121,6 @@ export const Header = (): JSX.Element => {
                 
               </div>
             </ul>
-            <div className="header-navbar__list-3">
-              <p className="header-navbar__list-3__style">New Styles on Sale:</p>
-              <a href="" className="header-navbar__list-3__link">Up to 40% Off Shop All Our New Markdowns</a>
-            </div>
         </nav>
       
       </div>

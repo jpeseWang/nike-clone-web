@@ -23,7 +23,7 @@ export const Signup = (): JSX.Element => {
                   <p className="text-xs font-extralight text-left pl-3">Sign up for emails to get updates from Nike on products, offers and your Member benefits</p>
               </div>
               <p className="text-xs font-extralight py-6">By creating an account, you agree to Nike's <a href="" className="underline">Privacy Policy and Terms of Use.</a></p>
-              <button className="bg-[#111] w-[100%] text-white p-2 hover:opacity-80">Join us</button>
+              <button className="bg-[#111] w-[100%] text-white p-2 hover:opacity-80">Sign up</button>
               <p className="text-xs font-extralight pt-5">Already a Member? <a href="./login" className="font-normal underline">Sign in</a></p>
             </div>
         </div>

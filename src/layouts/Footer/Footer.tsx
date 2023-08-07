@@ -30,7 +30,7 @@ export const Footer = (): JSX.Element => {
                       <p className="font-thin text-sm pb-3">Sustainability</p>
                   </div>
               </div>
-              <div className="flex justify-between font-thin text-xs">
+              <div className="flex justify-between font-thin text-xs pb-5">
 
                   <div className="flex">
 

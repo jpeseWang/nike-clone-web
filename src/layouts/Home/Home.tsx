@@ -18,6 +18,10 @@ export const Home = (): JSX.Element => {
       {/* Tailwind CSS practice */}
 
       <div className="home__background">
+        <div className="header-navbar__list-3">
+          <p className="header-navbar__list-3__style">New Styles on Sale:</p>
+          <a href="" className="header-navbar__list-3__link">Up to 40% Off Shop All Our New Markdowns</a>
+        </div>
         <div className="pt-16 pb-6">
             <div className="flex justify-center">
               <img src={dunking} alt="" className="w-24 flex justify-center"/>

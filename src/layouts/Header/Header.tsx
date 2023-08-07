@@ -24,7 +24,7 @@ export const Header = (): JSX.Element => {
                     <a href="" className="header-navbar__list-item__link">Help</a>
                   </li>
                   <li className="header-navbar__list-item">
-                    <a href="" className="header-navbar__list-item__link">Join us</a>
+                    <a href="./signup" className="header-navbar__list-item__link">Join us</a>
                   </li>
                   <li className="header-navbar__list-item">
                     <a href="./login" className="header-navbar__list-item__link">Sign in</a>

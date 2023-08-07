@@ -13,10 +13,19 @@ export const Signup = (): JSX.Element => {
               <input type="text" placeholder="Last Name" className="w-[100%] border border-solid border-[#000] px-4 py-2 mb-4 outline-none border-[#ccc]" />
               <input type="date" placeholder="Date of time" className="w-[100%] border border-solid border-[#000] px-4 py-2 mb-4 outline-none border-[#ccc]" />
               <p className="text-xs font-extralight pb-4">Get a Nike Member Reward every year on your Birthday.</p>
-              <input type="text" placeholder="Country" className="w-[100%] border border-solid border-[#000] px-4 py-2 mb-4 outline-none border-[#ccc]" />
+              <form action="" className="w-[100%] border border-solid border-[#000] px-4 py-2 mb-4 outline-none border-[#ccc]">
+                    <select name="" id="" className="mr-32 outline-none pr-28">
+                        <option value="">Choose your country</option>
+                        <option value="">VietNam</option>
+                        <option value="">America</option>
+                        <option value="">Canada</option>
+                        <option value="">Australia</option>
+                        <option value="">Chinese</option>
+                    </select>
+                </form>
               <div className="flex justify-between">
-                  <input type="button" placeholder="Country" className="w-[48%] border border-solid border-[#000] px-4 py-2 mb-4 outline-none focus:border-black border-[#ccc]" />
-                    <input type="button" placeholder="Country" className="w-[48%] border border-solid border-[#000] px-4 py-2 mb-4 outline-none focus:border-black border-[#ccc]" />
+                  <input type="button" value="Male" className="w-[48%] border border-solid border-[#000] px-4 py-2 mb-4 outline-none focus:border-black border-[#ccc]" />
+                  <input type="button" value="Female" className="w-[48%] border border-solid border-[#000] px-4 py-2 mb-4 outline-none focus:border-black border-[#ccc]" />
               </div>
               <div className="flex">
                   <input type="checkbox" name="" id="" className="w-8"/>

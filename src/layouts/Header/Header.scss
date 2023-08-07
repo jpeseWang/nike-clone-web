@@ -120,6 +120,7 @@
 
 .header-navbar__list-2__icon {
   display: flex;
+  position: relative;
 }
 
 .list-2__icon {
@@ -133,12 +134,34 @@
 .list-2__search-bar {
   background-color: rgba(217, 215, 215, 0.4);
   border-radius: 20px;
-  padding: 8px 0 8px 16px;
+  padding: 8px 0 8px 40px;
   width: 180px;
+  position: relative;
+}
+
+.header-navbar__list-2__icon__span::before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 16px;
+  height: 20px;
+  background-image: url(../Assets/img/searching_icon.png);
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  left: 16px;
+  top: 12px;
+}
+
+
+.list-2__search-bar::before {
 }
 
 .list-2__search-bar:focus {
   background-color: rgba(217, 215, 215, 0.3);
+}
+
+.header-navbar__list-2__icon__link {
+  margin: auto 0;
 }
 
 .list-2__icon__heart {

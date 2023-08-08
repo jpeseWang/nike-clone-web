@@ -10,14 +10,14 @@ export const Login = (): JSX.Element => {
            <input type="password" placeholder="Password" className="w-[100%] border border-solid border-[#000] px-4 py-2 mb-4 outline-none" />
            <div className="flex ">
               <div className="flex mr-auto">
-                  <input type="checkbox" name="" id="" className="justify-start"/>
-                  <p className="justify-start text-xs pl-2">Keep me signed in</p>
+                  <input type="checkbox" name="" id="Sign-In" className="justify-start"/>
+                  <label htmlFor="Sign-In" className="justify-start text-xs pl-2">Keep me signed in </label>
               </div>
-              <a href="" className="text-xs justify-end !decoration-solid underline">Forgotten your password ?</a>
+              <a href="" className="text-xs justify-end !decoration-solid underline hover:opacity-60">Forgotten your password ?</a>
            </div>
-           <p className="text-xs font-light py-6">By logging in, you agree to Nike's <a href="" className="decoration-solid underline">Privacy Policy and <br /> Terms of Use.</a></p>
+           <p className="text-xs font-light py-6">By logging in, you agree to Nike's <span className="decoration-solid underline">Privacy Policy and <br /> Terms of Use.</span></p>
            <button className="bg-[#111] w-[100%] text-white p-2 hover:opacity-80">Sign in</button>
-           <p className="pt-5 text-xs font-light">Not a member ? <a href="/signup" className="underline font-normal">Sign up</a></p>
+           <p className="pt-5 text-xs font-light">Not a member ? <a href="/signup" className="underline font-normal hover:opacity-60">Sign up</a></p>
         </div>
     </div>
   )

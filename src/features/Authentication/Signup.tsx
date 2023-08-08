@@ -28,10 +28,10 @@ export const Signup = (): JSX.Element => {
                   <input type="button" value="Female" className="w-[48%] border border-solid border-[#000] px-4 py-2 mb-4 outline-none focus:border-black border-[#ccc]" />
               </div>
               <div className="flex">
-                  <input type="checkbox" name="" id="" className="w-8"/>
-                  <p className="text-xs font-extralight text-left pl-3">Sign up for emails to get updates from Nike on products, offers and your Member benefits</p>
+                  <input type="checkbox" name="" id="last-check" className="w-8"/>
+                  <label htmlFor="last-check" className="text-xs font-extralight text-left pl-3">Sign up for emails to get updates from Nike on products, offers and your Member benefits</label>
               </div>
-              <p className="text-xs font-extralight py-6">By creating an account, you agree to Nike's <a href="" className="underline">Privacy Policy and Terms of Use.</a></p>
+              <p className="text-xs font-extralight py-6">By creating an account, you agree to Nike's <span className="underline">Privacy Policy and Terms of Use.</span></p>
               <button className="bg-[#111] w-[100%] text-white p-2 hover:opacity-80">Sign up</button>
               <p className="text-xs font-extralight pt-5">Already a Member? <a href="./login" className="font-normal underline">Sign in</a></p>
             </div>

@@ -4,6 +4,8 @@ import nike__logo from "../Assets/img/Logo_NIKE.svg.png";
 import dunking from "../Assets/img/Jumpman_logo.svg.png";
 export const Header = (): JSX.Element => {
   //TODO: Hyzu lam Header
+  var feature = document.getElementsByClassName("list-2__info-detail--js");
+
   return (
     <div>
       <div className="header-container">
@@ -44,8 +46,8 @@ export const Header = (): JSX.Element => {
                 </li>
 
                 <li className="header-navbar__list-2__info">
-                    <span className="list-2__info-detail list-2__info-detail--js">New & Featured</span>
-                    <span className="list-2__info-detail">Men</span>
+                    <span className="list-2__info-detail" id="list-2__info-detail--js">New & Featured</span>
+                    <a href="/MenShoes" className="list-2__info-detail">Men</a>
                     <span className="list-2__info-detail">Women</span>
                     <span className="list-2__info-detail">Kids</span>
                     <span className="list-2__info-detail">Sale</span>
@@ -66,58 +68,58 @@ export const Header = (): JSX.Element => {
                   </a>
                   
                 </li>
-                <div className="featured__modal">
+                <div className="featured__modal hidden">
                   <div className="featured__modal--overlay"></div>
 
                   <div className="featured__modal-list--all">
-                    <ul className="featured__modal-list">
-                      <p className="featured__modal-list__item featured__modal-list__item--title">New & Featured</p>
-                      <p className="featured__modal-list__item">New Arrivals</p>
-                      <p className="featured__modal-list__item">Latest Shoes</p>
-                      <p className="featured__modal-list__item">Latest Clothing</p>
-                      <p className="featured__modal-list__item">Customize with Nike By You</p>
-                      <p className="featured__modal-list__item">Bestsellers</p>
-                      <p className="featured__modal-list__item">Member Eclusive</p>
-                      <p className="featured__modal-list__item">National Team Kits</p>
-                      <p className="featured__modal-list__item">Top Kicks Under 3,000,000 <span className="featured__modal-list__item--underscored">đ</span></p>
-                    </ul>
-                    
-                    <ul className="featured__modal-list">
-                      <p className="featured__modal-list__item featured__modal-list__item--title">Shop Icons</p>
-                      <p className="featured__modal-list__item">Air Force 1</p>
-                      <p className="featured__modal-list__item">Air Jordan 1</p>
-                      <p className="featured__modal-list__item">Air Max</p>
-                      <p className="featured__modal-list__item">Dunk</p>
-                      <p className="featured__modal-list__item">Blazer</p>
-                      <p className="featured__modal-list__item">Pegasus</p>
-                    </ul>
+                      <div className="featured__modal-list">
+                        <a href="" className="featured__modal-list__item featured__modal-list__item--title">New & Featured</a>
+                        <a href="" className="featured__modal-list__item">New Arrivals</a>
+                        <a href="" className="featured__modal-list__item">Latest Shoes</a>
+                        <a href="" className="featured__modal-list__item">Latest Clothing</a>
+                        <a href="" className="featured__modal-list__item">Customize with Nike By You</a>
+                        <a href="" className="featured__modal-list__item">Bestsellers</a>
+                        <a href="" className="featured__modal-list__item">Member Eclusive</a>
+                        <a href="" className="featured__modal-list__item">National Team Kits</a>
+                        <a href="" className="featured__modal-list__item">Top Kicks Under 3,000,000 <span className="featured__modal-list__item--underscored">đ</span></a>
+                      </div>
+                      
+                      <div className="featured__modal-list">
+                        <a href="" className="featured__modal-list__item featured__modal-list__item--title">Shop Icons</a>
+                        <a href="" className="featured__modal-list__item">Air Force 1</a>
+                        <a href="" className="featured__modal-list__item">Air Jordan 1</a>
+                        <a href="" className="featured__modal-list__item">Air Max</a>
+                        <a href="" className="featured__modal-list__item">Dunk</a>
+                        <a href="" className="featured__modal-list__item">Blazer</a>
+                        <a href="" className="featured__modal-list__item">Pegasus</a>
+                      </div>
 
-                    <ul className="featured__modal-list">
-                      <p className="featured__modal-list__item featured__modal-list__item--title">New For Men</p>
-                      <p className="featured__modal-list__item">Shoes</p>
-                      <p className="featured__modal-list__item">Clothing</p>
-                      <p className="featured__modal-list__item">Clothing</p>
-                      <p className="featured__modal-list__item">Accessories</p>
-                      <p className="featured__modal-list__item">Shop All New</p>
-                    </ul>
+                      <div className="featured__modal-list">
+                        <a href="" className="featured__modal-list__item featured__modal-list__item--title">New For Men</a>
+                        <a href="" className="featured__modal-list__item">Shoes</a>
+                        <a href="" className="featured__modal-list__item">Clothing</a>
+                        <a href="" className="featured__modal-list__item">Clothing</a>
+                        <a href="" className="featured__modal-list__item">Accessories</a>
+                        <a href="" className="featured__modal-list__item">Shop All New</a>
+                      </div>
 
-                    <ul className="featured__modal-list">
-                      <p className="featured__modal-list__item featured__modal-list__item--title">New For Women</p>
-                      <p className="featured__modal-list__item">Shoes</p>
-                      <p className="featured__modal-list__item">Clothing</p>
-                      <p className="featured__modal-list__item">Clothing</p>
-                      <p className="featured__modal-list__item">Accessories</p>
-                      <p className="featured__modal-list__item">Shop All New</p>
-                    </ul>
+                      <div className="featured__modal-list">
+                        <a href="" className="featured__modal-list__item featured__modal-list__item--title">New For Women</a>
+                        <a href="" className="featured__modal-list__item">Shoes</a>
+                        <a href="" className="featured__modal-list__item">Clothing</a>
+                        <a href="" className="featured__modal-list__item">Clothing</a>
+                        <a href="" className="featured__modal-list__item">Accessories</a>
+                        <a href="" className="featured__modal-list__item">Shop All New</a>
+                      </div>
 
-                    <ul className="featured__modal-list">
-                      <p className="featured__modal-list__item featured__modal-list__item--title">New For Kids</p>
-                      <p className="featured__modal-list__item">Shoes</p>
-                      <p className="featured__modal-list__item">Clothing</p>
-                      <p className="featured__modal-list__item">Clothing</p>
-                      <p className="featured__modal-list__item">Accessories</p>
-                      <p className="featured__modal-list__item">Shop All New</p>
-                    </ul>
+                      <div className="featured__modal-list">
+                        <a href="" className="featured__modal-list__item featured__modal-list__item--title">New For Kids</a>
+                        <a href="" className="featured__modal-list__item">Shoes</a>
+                        <a href="" className="featured__modal-list__item">Clothing</a>
+                        <a href="" className="featured__modal-list__item">Clothing</a>
+                        <a href="" className="featured__modal-list__item">Accessories</a>
+                        <a href="" className="featured__modal-list__item">Shop All New</a>
+                      </div>
                   </div>
                 
               </div>

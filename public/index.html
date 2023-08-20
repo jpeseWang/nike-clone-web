@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <link rel="stylesheet" href="./asset/themify-icons-font/themify-icons/themify-icons.css">
+  <link rel="icon" href="asset/img/nike.png" type="image/x-icon" />
+  <link rel="stylesheet" href="/public/asset/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <link href="/dist/output.css" rel="stylesheet" />
-    <!--
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link href="/dist/output.css" rel="stylesheet" />
+  <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
       Only files inside the `public` folder can be referenced from the HTML.
@@ -25,11 +26,333 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>Nike. Just Do It.</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+  <title>Nike. Just Do It.</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="wrapper">
+    <header id="header">
+      <div id="topbar">
+        <a class="icon" href=""><img class="jordan-icon" src="/public/asset/img/jordan.png" alt="jordan"></a>
+        <ul class="topbar__main">
+          <li class="topbar-choice"><a href="">Find a Store</a></li>
+          <li>|</li>
+          <li class="topbar-choice">
+            <a href="">Help</a>
+            <ul id="help-subnav">
+              <li><a href="">Help</a></li>
+              <li class="help-choice"><a href="#">Order Status</a></li>
+              <li class="help-choice"><a href="#">Dispatch and Delivery</a></li>
+              <li class="help-choice"><a href="#">Returns</a></li>
+              <li class="help-choice"><a href="#">Contact Us</a></li>
+              <li class="help-choice"><a href="#">Privacy Policy</a></li>
+              <li class="help-choice"><a href="#">Terms of Sale</a></li>
+              <li class="help-choice"><a href="#">Terms of Use</a></li>
+              <li class="help-choice"><a href="#">Send Us Feedback</a></li>
+            </ul>
+          </li>
+          <li>|</li>
+          <li class="topbar-choice"><a href="">Join Us</a></li>
+          <li>|</li>
+          <li class="topbar-choice"><a href="">Sign In</a></li>
+        </ul>
+      </div>
+
+      <nav id="navbar">
+        <a href=""><img src="/public/asset/img/nike.png" alt="nike logo" class="nike-logo"></a>
+        <ul>
+          <li class="navbar-choice"><a href="#">New & Featured</a></li>
+          <li class="navbar-choice"><a href="#">Men</a></li>
+          <li class="navbar-choice"><a href="#">Women</a></li>
+          <li class="navbar-choice"><a href="#">Kids</a></li>
+          <li class="navbar-choice"><a href="#">Sales</a></li>
+          <li class="navbar-choice"><a href="#">SNKRS</a></li>
+        </ul>
+        <div class="navbar__right float-right">
+          <form>
+            <input type="text" name="search" placeholder="Search">
+          </form>
+          <a href=""><i class="ti-heart"></i></a>
+          <a href=""><i class="ti-bag"></i></a>
+        </div>
+
+      </nav>
+    </header>
+
+    <div id="slider">
+      <h4>New Styles on Sale: Up to 40% Off</h4>
+      <h5><a href="">Shop all our new markdowns</a></h5>
+    </div>
+
+    <div id="container">
+      <div class="shop">
+        <img src="/public/asset/img/slider.webp" alt="">
+        <div class="shop__content">
+          <h4 class="shop__content--small">Nike Infinity RN 4</h4>
+          <h1 class="shop__content--big">SUPPORT IS ALL AROUND YOU</h1>
+          <h4 class="shop__content--small">The all new ReactX foam provides a smooth and highly cushioned, yet
+            reassuring supportive feeling, underfoot.</h4>
+          <button class="shop__button">Shop</button>
+        </div>
+      </div>
+
+      <div id="trend-alert">
+        <div class="trend-alert__head">
+          <h2 class="title">Trend Alert</h2>
+          <div class="trend-alert__head--right">
+            <a href="">Shop</a>
+            <div class="icon"><i class="ti-angle-left"></i></div>
+            <div class="icon"><i class="ti-angle-right"></i></div>
+          </div>
+        </div>
+        <div class="trend-alert__products">
+          <div class="col col-3">
+            <img src="/public/asset/img/nike-af1-men.webp" alt="">
+            <div class="trend-alert__product__content">
+              <div class="trend-alert__product__content--left">
+                <div class="product-name">Nike Air Force 1 '07</div>
+                <p class="product-gender">Men 's Shoes</p>
+              </div>
+              <p class="product-price">2,929,000₫</p>
+            </div>
+          </div>
+          <div class="col col-3">
+            <img src="/public/asset/img/nike-af1-women.webp" alt="">
+            <div class="trend-alert__product__content">
+              <div class="trend-alert__product__content--left">
+                <div class="product-name">Nike Air Force 1 '07</div>
+                <p class="product-gender">Women 's Shoes</p>
+              </div>
+              <p class="product-price">2,929,000₫</p>
+            </div>
+          </div>
+          <div class="col col-3">
+            <img src="/public/asset/img/nike-gamma-force.webp" alt="">
+            <div class="trend-alert__product__content">
+              <div class="trend-alert__product__content--left">
+                <div class="product-name">Nike Gamma Force</div>
+                <p class="product-gender">Women 's Shoes</p>
+              </div>
+              <p class="product-price">2,649,000₫</p>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+
+      <div id="trending">
+        <h2 class="title">Trending</h2>
+        <div class="trending__pics">
+          <div class="col col-2">
+            <img src="/public/asset/img/trending-1.webp" alt="">
+            <div class="trending__pics__content">
+              <p>Running Apparel</p>
+              <h3>Support from Head to Toe</h3>
+              <button class="shop__button shop__button--white">Shop</button>
+            </div>
+          </div>
+          <div class="col col-2">
+            <img src="/public/asset/img/trending-2.webp" alt="">
+            <div class="trending__pics__content">
+              <h3>Lifestyle Footwear</h3>
+              <button class="shop__button shop__button--white">Shop</button>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+      </div>
+
+      <div id="featured">
+        <h2 class="title">Featured</h2>
+        <div class="featured__pics">
+          <div class="col col-3">
+            <img src="/public/asset/img/featured-1.webp" alt="">
+            <div class="featured__pics__content">
+              <h3>Zenvy Leggings</h3>
+              <p>
+                &bull; Gentle Support
+                <br>&bull; Lightweight InfinaSoft fabric for softness that lasts
+                <br>&bull; Opaque coverage that aces the squat test
+                <br>&bull; Minimal seams for distraction-free workouts
+              </p>
+              <button class="shop__button">Shop</button>
+            </div>
+          </div>
+          <div class="col col-3">
+            <img src="/public/asset/img/featured-2.webp" alt="">
+            <div class="featured__pics__content">
+              <h3>Go Leggings</h3>
+              <p>
+                &bull; Firm Support
+                <br>&bull; InfinaLock fabric for comfy compression without the squeeze
+                <br>&bull; No-fuss drawcord
+                <br>&bull; 6 pockets for all your things
+              </p>
+              <button class="shop__button">Shop</button>
+            </div>
+          </div>
+          <div class="col col-3">
+            <img src="/public/asset/img/featured-3.webp" alt="">
+            <div class="featured__pics__content">
+              <h3>Universal Leggings</h3>
+              <p>
+                &bull; Medium Support
+                <br>&bull; InfinaSmooth fabric for an all over smooth look and feel
+                <br>&bull; Extra-wide waistband means an end to constant pulling up
+                <br>&bull; Side pockets for your essentials
+              </p>
+              <button class="shop__button">Shop</button>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+      </div>
+
+      <div id="the-latest">
+        <div class="shop">
+          <img src="/public/asset/img/the_latest.jpg" alt="">
+          <div class="shop__content">
+            <h4 class="shop__content--small">Just In</h4>
+            <h1 class="shop__content--big">NIKE READY PACK</h1>
+            <h4 class="shop__content--small">The season is here. Start yours prepared with the best in touch, agility,
+              precision and speed.</h4>
+            <button class="shop__button">Shop All</button>
+          </div>
+        </div>
+
+        <div id="dont-miss">
+          <h2 class="title">Don't Miss</h2>
+          <div class="dont-miss__pic">
+            <div class="dont-miss__pic__content">
+              <h4 class="dont-miss__pic__content--small">Nike Metcon 9</h4>
+              <h1 class="dont-miss__pic__content--big">LOCK IN YOUR LIFTS</h1>
+              <button class="shop__button shop__button--white">Shop</button>
+            </div>
+          </div>
+        </div>
+
+        <div id="the-essentials">
+          <h2 class="title">The Essentials</h2>
+          <div class="the-essentials__pics">
+            <div class="col col-3">
+              <img src="/public/asset/img/the_essentials-1.webp" alt="">
+              <button class="shop__button shop__button--white">Men's</button>
+            </div>
+            <div class="col col-3">
+              <img src="/public/asset/img/the_essentials-2.webp" alt="">
+              <button class="shop__button shop__button--white">Women's</button>
+            </div>
+            <div class="col col-3">
+              <img src="/public/asset/img/the_essentials-3.webp" alt="">
+              <button class="shop__button shop__button--white">Kids's</button>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="clear"></div>
+        </div>
+
+        <div id="item-lists">
+          <div class="item-lists__content">
+            <h4 class="item-type">Icons</h4>
+            <ul>
+              <li><a href="">Air Force 1</a></li>
+              <li><a href="">Huarache</a></li>
+              <li><a href="">Air Max 90</a></li>
+              <li><a href="">Air Max 95</a></li>
+              <li><a href="">Air Max 97</a></li>
+              <li><a href="">Air Max 270</a></li>
+              <li><a href="">Air Max 720</a></li>
+              <li><a href="">All Air Max</a></li>
+              <li><a href="">Vapormax</a></li>
+            </ul>
+            <h4 class="item-type">Shoes</h4>
+            <ul>
+              <li><a href="">All Shoes</a></li>
+              <li><a href="">Custom Shoes</a></li>
+              <li><a href="">Jordan Shoes</a></li>
+              <li><a href="">Running Shoes</a></li>
+              <li><a href="">Basketball Shoes</a></li>
+              <li><a href="">Football Shoes</a></li>
+              <li><a href="">Gym & Training Shoes</a></li>
+              <li><a href="">Lifestyle Shoes</a></li>
+            </ul>
+            <h4 class="item-type">Clothing</h4>
+            <ul>
+              <li><a href="">All Cloting</a></li>
+              <li><a href="">Modest Wear</a></li>
+              <li><a href="">Hoodies & Pullovers</a></li>
+              <li><a href="">Shirts & Tops</a></li>
+              <li><a href="">Jackets</a></li>
+              <li><a href="">Compression & Nike Pro</a></li>
+              <li><a href="">Trousers & Leggings</a></li>
+              <li><a href="">Shorts</a></li>
+            </ul>
+            <h4 class="item-type">Kids'</h4>
+            <ul>
+              <li><a href="">Infant & Toddler Shoes</a></li>
+              <li><a href="">Kids' Shoes</a></li>
+              <li><a href="">Kids' Jordan Shoes</a></li>
+              <li><a href="">Kids' Basketball Shoes</a></li>
+              <li><a href="">Kids' Running Shoes</a></li>
+              <li><a href="">Kids' Clothing</a></li>
+              <li><a href="">Kids' Socks</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer">
+      <div class="footer-services">
+        <ul>
+          <li class="footer-services__head">FIND A STORE</li>
+          <li class="footer-services__head">BECOME A MEMBER</li>
+          <li class="footer-services__head">Send Us Feedback</li>
+        </ul>
+        <ul>
+          <li class="footer-services__head">GET HELP</li>
+          <li><a href="">Order Status</a></li>
+          <li><a href="">Delivery</a></li>
+          <li><a href="">Returns</a></li>
+          <li><a href="">Payment Options</a></li>
+          <li><a href="">Contact Us</a></li>
+        </ul>
+        <ul>
+          <li class="footer-services__head">ABOUT NIKE</li>
+          <li><a href="">News</a></li>
+          <li><a href="">Careers</a></li>
+          <li><a href="">Investors</a></li>
+          <li><a href="">Sustainability</a></li>
+        </ul>
+        <div class="footer__contact">
+          <div class="media-icon"><i class="ti-twitter"></i></div>
+          <div class="media-icon"><i class="ti-facebook"></i></div>
+          <div class="media-icon"><i class="ti-youtube"></i></div>
+          <div class="media-icon"><i class="ti-instagram"></i></div>
+        </div>
+      </div>
+
+      <div class="footer-copyright">
+        <div class="footer-copyright--left">
+          <i class="ti-location-pin"></i>
+          <p>Vietnam</p>
+          <p>© 2023 Nike, Inc. All Rights Reserved</p>
+        </div>
+        <div class="footer-copyright--right">
+          <ul>
+            <li><a href="">Guides</a></li>
+            <li><a href="">Terms of Sale</a></li>
+            <li><a href="">Terms of Use</a></li>
+            <li><a href="">Nike Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </footer>
+  </div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -40,5 +363,6 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  </body>
+</body>
+
 </html>

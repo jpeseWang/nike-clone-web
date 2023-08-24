@@ -379,9 +379,6 @@ a {
 }
 
 #dont-miss .dont-miss__pic {
-    background: url(/public/asset/img/dont-miss.jpg) center center / cover no-repeat;
-    height: 1000px;
-    width: 100%;
     position: relative;
 }
 
